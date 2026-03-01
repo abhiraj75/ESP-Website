@@ -424,7 +424,6 @@ class StudentProfileForm(UserContactForm, EmergContactForm, GuardContactForm, St
                 del self.fields[field_name]
             if field_name == 'phone_cell' and 'receive_txt_message' in self.fields:
                 del self.fields['receive_txt_message']
-    
     def clean(self):
         cleaned_data = super(StudentProfileForm, self).clean()
 
