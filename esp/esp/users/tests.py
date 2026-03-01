@@ -919,6 +919,7 @@ class StudentProfileForm__emailvalidationtest(TestCase):
             'first_name': 'Test',
             'last_name': 'Student',
             'e_mail': student_email,
+            'phone_day': '+15555550100',
             'phone_cell': '+15555550100',
             'address_street': '84 Massachusetts Ave',
             'address_city': 'Cambridge',
